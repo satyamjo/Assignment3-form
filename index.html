@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: darkgray;
+        }
+        table {
+            margin-left: 480px;
+        }
+        td, th{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form method="get">
+            <table style="border: 1px solid; text-align: center; background-color: cadetblue;">
+            <h2 style="text-align: center; color:lightcyan;">Employe Registration form</h2>
+            <tr>
+                <th>
+                    Enter your name
+                </th>
+                <td>
+                    <input type="text" name="name" id="name"  placeholder="enter your  name" required>
+                </td>
+            </tr>
+            <tr>
+                <th
+                >Enter last name
+            </th>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter password
+                </th>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    ReEnter password
+                </th>
+                <td>
+                    <input type="password" min="5" max="10">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter your email
+                </th>
+                <td>
+                    <input type="email">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter your mobile
+                </th>
+                <td>
+                    <input type="number" placeholder="+(91)-8000-565656">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter your address
+                </th>
+                <td>
+                    <textarea rows="12" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Select your gender
+                </th>
+                <td>
+                Male
+                <input type="radio" name="gender" value="Male">
+                Female
+                <input type="radio" name="gender" value="Female">
+                Other
+                <input type="radio" name="gender" value="Others">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Select your hobbies
+                </th>
+                <td>
+                Cricket
+                <input type="checkbox" name="hobbies" value="hobbies1">
+                Movies
+                <input type="checkbox" name="hobbies" value="hobbies2">
+                Others
+                <input type="checkbox" name="hobbies" value="hobbies3">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Date Of Birth
+                </th>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Select your Country
+                </th>
+                <td>
+                    <select name="country">
+                        <option value="" selected="selected" disabled="disabled">Select your country</option>
+                        <option value="india">India</option>
+                        <option value="America">America</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Uplod Photo 
+                </th>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Save My Data">
+                    <input type="reset" value="Reset Data">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </section>
+</body>
+</html>
